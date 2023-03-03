@@ -50,7 +50,7 @@ do
     sleep 1
 
     xdotool key KP_Enter
-    sleep 1
+    sleep 3
 
         xdotool key alt+Tab
     sleep 1
