@@ -2,6 +2,7 @@
 
 # The purpose of this script is to automate the counting (Discord bot) on a Discord server, with 2 Discord accounts
 #
+# - The script sends 1501 times messages and then stops
 # - You may need to reboot your computer if your log screen get locked while the script is still running 
 #
 # To make the script work well:
@@ -42,7 +43,10 @@ sleep 20
 number=1
 echo "The script has started."
 
-while true
+# The loop iterates 1501 times to avoid detections
+counter=0
+
+while [ $counter -lt 1500 ]
 do
 # You can add a comment after the $number with quotes + a space, ex: " hey"
     xdotool type $number
@@ -54,6 +58,8 @@ do
 
         xdotool key alt+Tab
     sleep 1
+
+	((counter++))
 done
 
 for pidItem in ${pidList}; do
