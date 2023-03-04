@@ -41,10 +41,11 @@ sleep 20
 
 # Change the number variable as the number you want the script to start from
 number=1
-echo "The script has started."
 
 # The loop iterates 1501 times to avoid detections
 counter=0
+
+echo "The script has started."
 
 while [ $counter -lt 1500 ]
 do
