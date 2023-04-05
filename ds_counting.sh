@@ -1,17 +1,7 @@
 #!/bin/bash
 
-# The purpose of this script is to automate the counting (Discord bot) on a Discord server, with 2 Discord accounts
-#
-# - The script sends 1000 messages and then stops
-# - You may need to reboot your computer if your log screen get locked while the script is still running 
-#
-# To make the script work well:
-#
-# - You first need to have 2 Discord accounts and need to be logged in both of your pages
-# - Prepare both of your Discord couting pages (Discord client + Discord on any browser)
-# - Once you run the script go on the first Discord page, where your need to type the first number
-# - Make sure that the second Discord page is directly accessible with alt+tab
-# - Press Ctrl+C in the console to stop it
+# @name: Discord couting script
+# @author: Kitsui#8258
 
 set --exit-on-error --errtrace
 
