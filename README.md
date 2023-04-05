@@ -3,8 +3,7 @@
 ## Purpose of the script
 
 * The purpose of this script is to automate the counting (Discord bot) on a Discord server, with 2 Discord accounts
-BOT ID: 510016054391734273
-
+* This script is created to work with this bot only: counting#5250
 * It can only be used on Linux computers
 * The script sends 1000 messages and then stops
 
