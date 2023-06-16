@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# @name: Discord couting script
-# @author: Kitsui#8258
+# @name: Discord counting script
+# @author: kitsuiwebster
 
 set --exit-on-error --errtrace
 
